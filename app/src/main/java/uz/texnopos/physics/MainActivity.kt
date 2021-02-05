@@ -1,4 +1,4 @@
-package uz.texnopos.fizika
+package uz.texnopos.physics
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package uz.texnopos.fizika
+package uz.texnopos.physics
 
 import org.junit.Test
 
