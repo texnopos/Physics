@@ -7,6 +7,10 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "themes")
 data class Themes(
 
+    @PrimaryKey()
+    @ColumnInfo(name = "id")
+    var id: Int,
+
     @ColumnInfo(name = "name")
     var name: String,
 
@@ -14,9 +18,5 @@ data class Themes(
     var number: Int,
 
     @ColumnInfo(name = "page")
-    var page: Int,
-
-    @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "id")
-    var id: Int
-    )
+    var page: Int
+)
